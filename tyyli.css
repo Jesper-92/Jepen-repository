@@ -1,0 +1,56 @@
+/* Base styles for mobile */
+body {
+font-size: 14px;
+text-align: auto;
+}
+
+
+/* Add desktop-specific styles */
+@media (min-width: 768px) {
+body {
+font-size: 18px;
+
+    }
+}
+
+
+
+/* CSS */
+.pinkkinappi {
+  background-color: #EA4C89;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: auto;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.pinkkinappi:hover,
+.pinkkinappi:focus {
+  background-color: #F082AC;
+}
+
+
+.cont{
+
+    margin: auto;
+    width: 50%;
+}
