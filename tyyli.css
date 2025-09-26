@@ -1,7 +1,8 @@
 /* Base styles for mobile */
 body {
 font-size: 14px;
-text-align: auto;
+text-align: center;
+font-family: 'Arial Black';
 }
 
 
@@ -9,13 +10,24 @@ text-align: auto;
 @media (min-width: 768px) {
 body {
 font-size: 18px;
-
+font-family: 'Arial Black';
     }
 }
 
 
+.AAAA{
+  font-size: 50px;
+  font-family: 'UmbertoRegular', 'Umberto.ttf';
+  font-weight: normal;
+  font-style: normal;
 
-/* CSS */
+
+
+}
+
+
+
+
 .pinkkinappi {
   background-color: #EA4C89;
   border-radius: 8px;
@@ -24,7 +36,6 @@ font-size: 18px;
   color: #FFFFFF;
   cursor: pointer;
   display: inline-block;
-  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   font-weight: 500;
   height: 40px;
@@ -38,8 +49,6 @@ font-size: 18px;
   text-decoration: none;
   transition: color 100ms;
   vertical-align: baseline;
-  user-select: none;
-  -webkit-user-select: none;
   touch-action: manipulation;
 }
 
