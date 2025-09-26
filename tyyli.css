@@ -62,22 +62,22 @@ font-family: 'Arial Black';
 }
 
 
-.cont{
-
-    margin: auto;
-    width: 50%;
-}
-
-
 
 .header {
 font-family: 'UmbertoRegular';
 font-size: 30px;
-background-color: #f1f1f1;
-text-align: left;
-padding: 10px;
+background-color: #ffffff54;
+text-align: center;
+padding-top: 10px;
+padding-bottom: 10px;
 position: sticky;
 left: 0;
 top: 0;
 width: 100%;
+}
+
+
+
+.headerlinkit{
+  color:#ffffff00
 }
