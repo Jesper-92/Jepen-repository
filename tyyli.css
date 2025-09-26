@@ -15,16 +15,20 @@ font-family: 'Arial Black';
 }
 
 
-.AAAA{
-  font-size: 50px;
-  font-family: 'UmbertoRegular', 'Umberto.ttf';
+@font-face{
   font-weight: normal;
   font-style: normal;
-
-
-
+  font-family: 'UmbertoRegular';
+  src: url('umberto.ttf') format('truetype');
 }
 
+
+.AAAA{
+  font-family: 'UmbertoRegular';
+  font-size: 100px;
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 
@@ -62,4 +66,18 @@ font-family: 'Arial Black';
 
     margin: auto;
     width: 50%;
+}
+
+
+
+.header {
+font-family: 'UmbertoRegular';
+font-size: 30px;
+background-color: #f1f1f1;
+text-align: left;
+padding: 10px;
+position: sticky;
+left: 0;
+top: 0;
+width: 100%;
 }
