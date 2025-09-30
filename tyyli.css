@@ -74,6 +74,20 @@ overflow-y: auto;
 
 
 }
+/* Katutaide sivua varten */
+.Kerava{
+
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 1px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.teksti{
+  font-size: 40px;
+}
 
 
 
