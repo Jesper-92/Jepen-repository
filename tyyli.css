@@ -135,7 +135,36 @@ top: 0;
 }
 
 
-
+/* Ota yhteyttä sivu */
+.Yhteystiedot {
+    display: flex;               
+    justify-content: center; 
+    align-items: flex-start;     
+    gap: 10px;                   
+    flex-wrap: wrap;             
+    padding: 20px;
+}
+.Lomake {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    gap: 0.5rem;
+}
+.lomake-säiliö {
+    display: flex;
+    flex-direction: column; 
+    max-width: 400px;
+    gap: 10px;
+}
+.Kartta {                  
+    min-width: 300px; 
+    max-width: 450px;
+}
+.Kartta iframe {
+    width: 300px;
+    max-width: 400px; 
+    height: 400px;
+}
 
 
 .header {
