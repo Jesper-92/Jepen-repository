@@ -11,7 +11,6 @@ text-align: center;
 font-family: 'Arial Black';
 width: 100%;
 overflow-x: hidden;
-overflow-y: auto;
 
 }
 
@@ -56,7 +55,29 @@ padding: 0px;
 }
 
 
+.pinkkinappi {
+  background-color: #C00E52;
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  padding: 1px 6px;
+  position: relative;
+  text-align: center;
+  transition: background-color 350ms, color 150ms;
+  vertical-align: baseline;
+  touch-action: manipulation;
+  } 
 
+
+
+@media (min-width: 768px) {
 .pinkkinappi {
   background-color: #C00E52;
   border-radius: 8px;
@@ -75,6 +96,7 @@ padding: 0px;
   transition: background-color 350ms, color 150ms;
   vertical-align: baseline;
   touch-action: manipulation;
+  } 
 }
 
 .pinkkinappi:hover,
@@ -96,7 +118,7 @@ width: 50%;
 left: 0;
 right: 0;
 top: 0;
-
+box-shadow: 0px 0px 20px black;
 
 }
 
@@ -108,13 +130,20 @@ top: 0;
     background-clip: text;
     display:flex;
     position: static;
-    width: 100%;
-    left: 0;
-    right: 0;
-    top: 0;
+    width: 50%;
+    transition: width 350ms;
+    box-shadow: 0px 0px 50px black;
   }
-
 }
+
+
+
+.etuSivunIsoKuva:Hover{
+
+  width: 60%;
+ 
+}
+
 
 
 
@@ -181,13 +210,58 @@ margin-bottom: 0px;
 
 
 .footer {
+font-size: 15px;
+color: white;
+background-color: #000000;
+text-align: center;
+padding-top: 50px;
+padding-bottom: 100px;
+margin-bottom: 0px;
+width: 100%;
+display:block;
+flex-direction: column;
+overflow:hidden;
+position: sticky;
+}
+
+
+@media (min-width: 768px){
+
+
+.footer {
 font-size: 30px;
 color: white;
 background-color: #000000;
 text-align: center;
 padding-top: 50px;
 padding-bottom: 50px;
+padding-right: 0px;
+padding-left: 0px;
 width: 100%;
-display:block;
+display:block;  
 overflow:hidden;
+position: sticky;
 }
+
+}
+
+.yleinen-padding {
+
+padding-left: 50px;
+padding-right: 50px;
+
+  }
+
+@media (min-width: 768px){
+  .yleinen-padding {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+
+
+
+
+
