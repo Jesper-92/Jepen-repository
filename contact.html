@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ota Yhteyttä</title>
+    <link rel="stylesheet" href="tyyli.css">
+</head>
+<body>
+        <div class="header">
+        <p class="headerfont">uusimaan graffitimaalaukset </p>
+
+        <a class="headerlinkit" href="index.html">
+            <button class="pinkkinappi">Etusivu</button>
+        </a>
+        <a class="headerlinkit" href="Katutaide.html"> 
+            <button class="pinkkinappi">Portfolio</button>
+        </a>
+        
+        <a class="headerlinkit" href="contact.html">
+           <button class="pinkkinappi">Ota yhteyttä</button>
+        </a>
+
+    </div>
+        <main>
+        <section class="Yhteystiedot">
+            <div class="lomake-säiliö">
+            <h2>Täytä lomake tai ota yhteyttä suoraan puhelimitse.</h2>      
+            <form action="#" method="post" class="Lomake">
+                <label for="nimi">Nimi:</label>
+                <input type="text" id="nimi" name="nimi" required>
+
+                <label for="sähköposti">Sähköposti:</label>
+                <input type="email" id="sähköposti" name="sähköposti" required>
+
+                <label for="viesti">Viesti:</label>
+                <textarea id="viesti" name="viesti" rows="5" required></textarea>
+
+                <button type="submit" class="pinkkinappi">Lähetä</button>
+            </form>
+            </div>
+
+            <div class="Kartta">
+            <h2>Sijainti</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1575.1504620085984!2d24.92677629708323!3d60.17137802075556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46920a315a476f27%3A0x1c00b55478573b10!2s00100%20Helsinki!5e0!3m2!1sfi!2sfi!4v1759507447406!5m2!1sfi!2sfi"
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+                
+            </iframe>
+        </div>
+        </section>
+    </main>
+
+<div class="footer">
+    <div class="GraffitiOtsikko">uusimaan graffiti</div>
+    <p>
+        PK-Seudun Graffiti OY<br>
+        Katuosoite 10, 0100 Helsinki<br>
+        +358 10 10 10 10 10 10<br>
+        graffiti@spraymaalaukset.fi<br>
+    </p>
+</div>
+</body>
+</html>
