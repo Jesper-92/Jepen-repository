@@ -194,7 +194,14 @@ box-shadow: 0px 0px 20px black;
 .Kartta iframe {
     width: 300px;
     max-width: 400px; 
-    height: 400px;
+    height: 520px;
+}
+.yhteystieto-laatikko {
+    background-color: #f6f6f6;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    text-align: left;
 }
 
 
