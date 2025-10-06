@@ -177,7 +177,12 @@ box-shadow: 0px 0px 20px black;
   font-style: italic;
 }
 
-
+.Lopputeksti{
+  font-size:2vw;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 
 @media (max-width: 768px) {
 
@@ -207,15 +212,16 @@ box-shadow: 0px 0px 20px black;
     width: 100%;
   }
 
-
-  .tekstit {
-  font-size: 1.2em;
-  text-align: center;
-  padding: 10px;
-}
-  .tekstit {
-    font-size: 5vw;
+  .Portfolio-pvm{
+  font-size:3vw;
   }
+
+  .Lopputeksti{
+  font-size:3vw;
+  margin-bottom: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
 }
 
 
